@@ -60,7 +60,8 @@ const ImageAnalyzer = () => {
           <img
             src={preview}
             alt="Uploaded Preview"
-            style={{ maxWidth: "100%", maxHeight: "400px", margin: "20px 0" }}
+            style={{ maxWidth: "300px", maxHeight: "400px", margin: "20px 0" }}
+            className="img"
           />
         </div>
       )}
